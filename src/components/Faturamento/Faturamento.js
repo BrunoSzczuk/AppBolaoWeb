@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { consultarFaturamento } from "../../services/faturamento";
+import { consultarFaturamento } from "../../services/funcoes/faturamento";
 
 class Faturamento extends Component {
     constructor(props){

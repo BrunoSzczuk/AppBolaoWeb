@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { consultarResumo } from "../../services/resumo";
+import { consultarResumo } from "../../services/funcoes/resumo";
 
 class Resumo extends Component {
     constructor(props){

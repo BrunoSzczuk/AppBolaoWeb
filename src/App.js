@@ -7,6 +7,8 @@ import Faturamento from './components/Faturamento/Faturamento';
 import { Switch, Route } from 'react-router-dom';
 import Equipes from './components/Equipes/Equipes';
 import Classificacao from './components/Classificacao/Classificacao';
+import Login from './components/Login/Login';
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
                 <Route path="/consultas" component={Consultas} />
                 <Route path="/faturamento" component={Faturamento} />
                 <Route path="/resumo" component={Resumo} />
+                <Route path="/login" component={Login} />
               </Switch>
             </div>
           </div>

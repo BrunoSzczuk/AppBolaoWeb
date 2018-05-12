@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { listarConsultas } from "../../services/consultas";
+import { listarConsultas } from "../../services/funcoes/consultas";
 
 class Consultas extends Component {
     constructor(props){

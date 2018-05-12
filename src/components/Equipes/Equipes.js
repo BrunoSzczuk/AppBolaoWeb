@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { consultarEquipes } from "../../services/equipes";
+import { consultarEquipes } from "../../services/funcoes/equipes";
 class Equipes extends Component {
     constructor(props) {
         super(props);

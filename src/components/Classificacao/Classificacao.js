@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { consultarClassificacao } from "../../services/classificacao";
+import { consultarClassificacao } from "../../services/funcoes/classificacao";
 
 class Classificacao extends Component {
     constructor(props) {
